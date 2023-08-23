@@ -15,8 +15,8 @@ web apps using F#, and it offers no definitive solution out of the box for handl
 
 ## 3 ways of doing dependency handling using Giraffe
 
-*  Baseline: [No dependency injection](..\NoDi\NoDi.fs)
-*  [Getting dependencies from HttpContext](..\FromCtx\FromCtx.fs)
-*  [Injecting dependencies to WebApp](..\ToWebApp\ToWebApp.fs)
-*  [Injecting functions as record to WebApp](..\DiRecord\DiRecord.fs)
+*  Baseline: [No dependency injection](../NoDi/NoDi.fs)
+*  [Getting dependencies from HttpContext](../FromCtx/FromCtx.fs)
+*  [Injecting dependencies to WebApp](../ToWebApp/ToWebApp.fs)
+*  [Injecting functions as record to WebApp](../DiRecord/DiRecord.fs)
 
