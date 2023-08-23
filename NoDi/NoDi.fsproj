@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <AssemblyName>NoDi.App</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Data.Tables" Version="12.8.1"/>
+        <PackageReference Include="Giraffe" Version="6.2.0"/>
+        <PackageReference Include="Giraffe.ViewEngine" Version="1.4.0"/>
+        <PackageReference Update="FSharp.Core" Version="7.0.400"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="NoDi.fs"/>
+    </ItemGroup>
+</Project>
